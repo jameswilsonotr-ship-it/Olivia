@@ -1,0 +1,29 @@
+name: Reusable hygiene
+
+on:
+  workflow_call:
+
+jobs:
+  hygiene:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Require publish_map.json
+        run: test -f publish_map.json
+
+      - name: Require README
+        run: test -f README.md
+
+      - name: Fail on obvious private pathnames in tracked tree
+        run: |
+          set -e
+          if git ls-files | grep -Ei 'biography|Bunny_Memories|/\.env|private/' ; then
+            echo "Forbidden path pattern found in tracked files"
+            exit 1
+          fi
+          echo "No forbidden path patterns in tracked file list"
+
+      - name: Hygiene OK
+        run: echo "reusable-hygiene passed"

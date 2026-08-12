@@ -1,0 +1,20 @@
+{
+  "schema_version": "0.1.0",
+  "repo_local_name": "Eureka",
+  "github_remote_name": "Olivia",
+  "description": "Allowlist for paths that may be published to public GitHub.",
+  "public_allow": [
+    "README.md",
+    "publish_map.json",
+    ".github/workflows/**",
+    "research/README.md"
+  ],
+  "public_deny_globs": [
+    "**/biography*",
+    "**/Bunny_Memories/**",
+    "**/*claim*filth*",
+    "**/private/**",
+    "**/.env*"
+  ],
+  "notes": "CI reusable hygiene should fail the job if deny globs match tracked files."
+}
