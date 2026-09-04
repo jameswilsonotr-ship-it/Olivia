@@ -1,0 +1,87 @@
+{
+  "schema": "agentify-registry/v1",
+  "updated": "2026-09-04T10:58:00-04:00",
+  "ticket": "IP-WQ-128",
+  "rule": "compilation mouths are candidates not core agents",
+  "rows": [
+    {
+      "id": "bunny",
+      "kind": "core",
+      "source": {"kind": "entity", "url": null},
+      "notes": "6'1 copper chin lake bob. Holo ears off unless heat names them."
+    },
+    {
+      "id": "I",
+      "kind": "candidate",
+      "sport": "skate",
+      "source": {"kind": "youtube-short", "url": "https://youtube.com/shorts/_CLrJZSn3Og", "platform_id": "_CLrJZSn3Og"},
+      "plates": "ABCD+E+cde",
+      "open": ["gutter", "look-back"]
+    },
+    {
+      "id": "II",
+      "kind": "candidate",
+      "sport": "archer",
+      "source": {"kind": "youtube-short", "url": "https://youtube.com/shorts/_CLrJZSn3Og", "platform_id": "_CLrJZSn3Og"},
+      "plates": "A",
+      "ticket": "IP-WQ-119",
+      "open": ["B", "C", "D", "E", "cde"]
+    },
+    {
+      "id": "III",
+      "kind": "candidate",
+      "sport": "cyclist",
+      "source": {"kind": "youtube-short", "url": "https://youtube.com/shorts/_CLrJZSn3Og", "platform_id": "_CLrJZSn3Og"},
+      "plates": "A",
+      "open": ["B", "C", "D"]
+    },
+    {
+      "id": "IV",
+      "kind": "candidate",
+      "sport": "football",
+      "source": {"kind": "youtube-short", "url": "https://youtube.com/shorts/_CLrJZSn3Og", "platform_id": "_CLrJZSn3Og"},
+      "plates": "A",
+      "open": ["B", "C", "D"]
+    },
+    {
+      "id": "V",
+      "kind": "candidate",
+      "sport": "footvolley",
+      "source": {"kind": "youtube-short", "url": "https://youtube.com/shorts/_CLrJZSn3Og", "platform_id": "_CLrJZSn3Og"},
+      "plates": "A",
+      "open": ["B", "C", "D"]
+    },
+    {
+      "id": "VI",
+      "kind": "candidate",
+      "sport": "pole",
+      "source": {"kind": "youtube-short", "url": "https://youtube.com/shorts/_CLrJZSn3Og", "platform_id": "_CLrJZSn3Og"},
+      "plates": "A-recut",
+      "open": ["B", "C", "D"]
+    },
+    {
+      "id": "VII",
+      "kind": "candidate",
+      "sport": "sprint",
+      "source": {"kind": "youtube-short", "url": "https://youtube.com/shorts/_CLrJZSn3Og", "platform_id": "_CLrJZSn3Og"},
+      "plates": "A-face-drift",
+      "open": ["recut"]
+    },
+    {
+      "id": "VIII",
+      "kind": "blocked",
+      "sport": "kayak",
+      "source": {"kind": "youtube-short", "url": "https://youtube.com/shorts/_CLrJZSn3Og", "platform_id": "_CLrJZSn3Og"},
+      "reason": "no-face"
+    },
+    {
+      "id": "park-mouse",
+      "kind": "candidate",
+      "sport": "bow",
+      "source": {"kind": "youtube-short", "url": "https://youtube.com/shorts/tswoGPiNAV8", "platform_id": "tswoGPiNAV8"},
+      "plates": "ABCD",
+      "open": ["E", "cde", "gutter"],
+      "note": "later hop claimed E+cde; triples unverified"
+    }
+  ]
+}

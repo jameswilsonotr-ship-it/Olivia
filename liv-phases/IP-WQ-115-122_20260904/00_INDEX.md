@@ -1,31 +1,27 @@
 # IP-WQ-115–122 — 2026-09-04 Grok-heavy
 
-**Claim:** Absolute Liv HUB  
-**Owner:** image-pipeline + Olivia  
-**Status:** OPEN / SCHEDULED  
-**Published:** GitHub `jameswilsonotr-ship-it/Olivia` this folder  
+**Claim:** Absolute Liv HUB
+**Owner:** image-pipeline + Olivia
+**Status:** OPEN / PARTIAL — see sibling pack 123–128 STATUS_BOARD
+**Published:** GitHub `jameswilsonotr-ship-it/Olivia` this folder
 **Drive binary flush this hop:** BLOCKED — host catalog has no `google_drive_upload_artifact`
 
-## Order
+Updated 2026-09-04 10:58 EDT. Do not read the 08:xx SCHEDULED table as current.
 
-| ID | Title | Gate |
-|----|-------|------|
-| 115 | Tripod repair + flush gate 0 + KEEP_INDEX rebuild | FIRST |
-| 122 | Serialization backorder drain (child of 115) | with 115 |
-| 116 | `e` two-hop policy | after 115 schema |
-| 117 | Skip-tight `c` | after 116 |
-| 118 | Phone picker card | anytime after schema |
-| 119 | Archer II on `_CLrJZSn3Og` | BLOCKED until 115 gate 0 |
-| 120 | Bunny PHG pair | heat/look-back/ears are picks |
-| 121 | NCO khaki FORMS not mouths | triples on existing E5–E9 jpegs |
+## Status after Heavy execute
 
-## Honest publish this turn
+| ID | Title | Status |
+|----|-------|--------|
+| 115 | Tripod repair + flush gate 0 + KEEP_INDEX rebuild | OPEN / CRITICAL |
+| 122 | Serialization backorder drain | OPEN / LIVE (146 open, 12 review) |
+| 116 | e two-hop policy | PARTIAL — hop_plan() in agentify.py |
+| 117 | Skip-tight c | PARTIAL |
+| 118 | Phone picker card | PARTIAL — picker_card() exists |
+| 119 | Archer II on `_CLrJZSn3Og` | IN_PROGRESS — A only |
+| 120 | Bunny PHG pair | IN_PROGRESS — look-back still open |
+| 121 | NCO khaki FORMS not mouths | QUEUED |
 
-- Tickets live here.
-- Canonical keep folder: https://drive.google.com/drive/folders/1_1xhWdBagAlUi-_g1MaksTE36fewmU1-
-- Last-night skater 1cde/2cde/E and bunny-phg A/C are **local rendered/ only**. Not Drive.
-- Drive WORK_QUEUE.md copies freeze ~2026-08-17. Skill-tree WQ is SSOT when sandbox is present.
-- Schema: `ipq-078-keep/v1`. Step6: `step6_drive_flush.py --from-keep` then `--gate`.
+Follow-on pack: `liv-phases/IP-WQ-123-128_20260904/`
 
 ## Related
 
