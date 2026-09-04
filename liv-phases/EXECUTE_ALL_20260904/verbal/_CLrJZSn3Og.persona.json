@@ -1,0 +1,13 @@
+{
+  "schema": "agentify-persona/v0.1",
+  "ticket": "IP-WQ-127",
+  "id": "_CLrJZSn3Og",
+  "available": false,
+  "caption_source": "missing",
+  "reason": "compilation overlay / no speaker",
+  "do_not_invent": true,
+  "source": {
+    "kind": "youtube-short",
+    "url": "https://youtube.com/shorts/_CLrJZSn3Og"
+  }
+}

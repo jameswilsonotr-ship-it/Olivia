@@ -1,0 +1,13 @@
+{
+  "schema": "agentify-persona/v0.1",
+  "ticket": "IP-WQ-127",
+  "id": "tswoGPiNAV8",
+  "available": false,
+  "caption_source": "missing",
+  "reason": "no transcript file; cookies Track-2 still blocked (IP-WQ-081)",
+  "do_not_invent": true,
+  "source": {
+    "kind": "youtube-short",
+    "url": "https://youtube.com/shorts/tswoGPiNAV8"
+  }
+}
